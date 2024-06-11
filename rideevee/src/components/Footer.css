@@ -1,0 +1,124 @@
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 235px;
+    left: 0;
+    /* top: 1990px; */
+    bottom: -800px;
+    /* margin-top: 1775px; */
+    background: #000000;
+  }
+  
+  .footer-inner {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    gap: 12px;
+  }
+  
+  .footer-logo {
+    width: 143.64px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 408px;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .newsletter-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 431px;
+    height: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-label {
+    width: 75px;
+    height: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+  
+  .newsletter-input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 340px;
+    height: 25px;
+  }
+  
+  .newsletter-input {
+    width: 273px;
+    height: 25px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    width: 340px;
+height: 25px;
+gap: 0px;
+border-radius: 20px 0px 0px 20px;
+opacity: 0px;
+border: Mixed solid #FFFFFF
+  }
+  
+  .newsletter-icon {
+    
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+height: 25px;
+left: 341px;
+gap: 0px;
+border-radius: 0px 20px 20px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+border: 1px solid #FFFFFF
+  }
+  
+  .newsletter-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer-copyright {
+    width: 262px;
+    height: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }

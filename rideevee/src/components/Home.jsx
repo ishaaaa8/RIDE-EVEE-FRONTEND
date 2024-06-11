@@ -12,7 +12,7 @@ function Home() {
         </div>
 
         <div className='home-content'>
-            {/* <img src={bgtour}></img> */}
+          
             <div className='home-bg' style={{ backgroundImage: `url(${bgtour})`} } >
                 <div className='home-content-inner'>
                     <div className='left-section'>
@@ -27,16 +27,17 @@ function Home() {
                 </div>
             </div>
             
-
+           
             <div className='lower-section'>
-                <Download/>
+            <Download/>
             </div>
             
        
         </div>
-        
-      
-    </div>
+
+    </div> 
+
+
   )
 }
 export default Home;

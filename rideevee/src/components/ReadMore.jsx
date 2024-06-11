@@ -1,5 +1,6 @@
 import React from 'react'
 import './ReadMore.css'
+import image from '../images/image_processing20200705-14536-p3d6n5 1.png'
 function ReadMore() {
     return (
       <div className="read-more">
@@ -11,8 +12,8 @@ function ReadMore() {
           <span>Read More...</span>
         </div>
         <div className="read-more-left">
-          {/* <img src={image} alt="GIF" className="read-more-image" /> */}
-          img
+          <img src={image} alt="GIF" className="read-more-image" />
+          
         </div>
       </div>
     );

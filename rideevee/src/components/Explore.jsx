@@ -6,6 +6,7 @@ function Explore() {
 
   const handleButtonClick = (index) => {
     setSelectedButton(index);
+    console.log('Selected button index:', index);
   };
 
   return (
@@ -13,12 +14,15 @@ function Explore() {
       <div className="explore-background"></div>
       <div className="explore-content">
         <div className="button-group">
-          {['Option 1', 'Option 2', 'Option 3', 'Option 4', 'Option 5'].map((option, index) => (
+          {['Outstation', 'Local', 'Airport', 'One Way', 'Round Trip'].map((option, index) => (
             <button
-              key={index}
-              className={`explore-button ${selectedButton === index ? 'selected' : ''}`}
-              onClick={() => handleButtonClick(index)}
-            >
+            key={index}
+            className={`explore-button ${selectedButton === index ? 'selected' : ''}`}
+            onClick={(e) => {
+              console.log('Button clicked:', e.target);
+              handleButtonClick(index);
+            }}
+          >
               {option}
             </button>
           ))}
