@@ -1,0 +1,255 @@
+/* Main home div */
+.home {
+    /* Frame 1686551869 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+width: 1440px;
+height: 917.02px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    
+  }
+  
+  /* Content inside home */
+  .home-content{
+    /* Group 1686551854 */
+    position: relative;
+    background-position: center;
+    /* background: url(""); */
+    width: 1440px;
+    height: 781px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      gap: 270px;
+    
+      width: 1388.31px;
+      height: 96.02px;
+    
+      /* Optional: Background color */
+      background-color: #FFFFFF;
+      
+        overflow: hidden;
+    }
+    
+    .navbar-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    
+    .navbar-logo,
+    .navbar-mobile,
+    .navbar-icons {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust individual image size if needed */
+    .navbar-logo {
+      /* WhatsApp Image 2023-09-24 at 12.03 3 */
+  
+      width: 200.31px;
+      height: 65px;
+  
+      /* background: url(logso.png); */
+      border-radius: 8px;
+  
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+   /* Adjust size as needed */
+    }
+    
+    .navbar-mobile {
+      /* Frame 1686551798 */
+  
+      /* Auto layout */
+      
+      /* Group 1686551808 */
+  
+      width: 342px;
+      height: 65px;
+  
+  
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  
+    }
+    
+    .navbar-icons {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 28.8px;
+  
+      width: 306px;
+      height: 80.02px;
+  
+  
+      /* Inside auto layout */
+      flex: none;
+      order: 2;
+      flex-grow: 0; /* Adjust size as needed */
+    }
+
+  }
+  .home-bg{
+    position: absolute;
+    width: 1440px;
+    /* height: 809px;
+     */
+     height: 700px;
+    left: 0px;
+    top: -0.02px;
+
+    /* width: 100%;
+    height: 100%; */
+    background: white url('../images/Best-Road-Trips-in-India 1.png') no-repeat center center;
+  background-size: cover;
+  z-index: -2;
+
+    /* background-repeat: no-repeat;
+    background: url("../images/Best-Road-Trips-in-India\ 1.png"); */
+  }
+
+  .home-content-inner{
+    /* Group 1686551801 */
+
+    position: absolute;
+    width: 1440px;
+    height: 683px;
+    /* z-index: 10; */
+    left: calc(50% - 1440px/2);
+    top: 136.02px;
+ 
+
+  }
+
+
+  /* Left section */
+  .left-section{
+/* Frame 1686551801 */
+
+/* Group 1686551802 */
+    /* background-color: black; */
+    position: absolute;
+    width: 561.13px;
+    height: 881.28px;
+    left: -0.06px;
+    top: -87.14px;
+    /* Group 1686551802 */
+
+  }
+
+ 
+  .left-section p{
+
+    
+    /* ​India's Leading One-Way Inter-City Cab Service Provider */
+left: 20px;
+position: absolute;
+width: 515px;
+height: 172px;
+/* left: calc(50% - 539px/2 - 430.5px);
+top: calc(50% - 172px/2 - 53.52px); */
+top: calc(50% - 322px);
+/* padding-left: 20px; */
+font-family: 'Poppins';
+font-style: normal;
+text-align: left;
+font-weight: 300;
+font-size: 47.52px;
+line-height: 57px;
+/* or 120% */
+/* display: flex; */
+align-items: left;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+z-index: 1;
+
+
+  }
+  .left-section-color{
+    color: #45D203;
+    font-weight: 600;
+  }
+
+  .ellipse{
+    /* Ellipse 816 */
+
+position: absolute;
+/* width: 1051px; */
+width: 70px;
+/* height: 869px; */
+height: 700px;
+/* left: -237.06px; */
+left: -120px;
+top: 18.8px;
+
+
+background: #000000;
+opacity: 0.5;
+filter: blur(100px);
+transform: rotate(-0.67deg);
+z-index: 0;
+
+  }
+  
+  /* Explore section */
+  .right-section {
+    position: absolute;
+    width: 650px;
+    height: 410px;
+    left: 90px;
+    top: -82px;
+  }
+  
+  /* Download section */
+  .lower-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 29px 0px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 1400px;
+    height: 81px;
+    left: 20px;
+    top: 632.02px;
+  
+    background: #D9D9D9;
+    border-radius: 50px;
+  }
+  

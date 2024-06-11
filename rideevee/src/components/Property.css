@@ -1,0 +1,19 @@
+.properties {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center; 
+    width: 1397.91px;
+    height: 259px;
+    width: 1435.91px;
+height: 259px;
+gap: 0px;
+opacity: 0px;
+
+    width: 100%;
+    margin: 0 auto;
+    gap: 5px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  

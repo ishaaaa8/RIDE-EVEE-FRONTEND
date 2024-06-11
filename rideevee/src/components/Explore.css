@@ -1,0 +1,110 @@
+.explore {
+    position: absolute;
+    width: 650px;
+    height: 410px;
+    left: 570px;
+    top: 98.98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .explore-background {
+    position: absolute;
+    width: 850px;
+    height: 410px;
+    background: #F7F7F7;
+    opacity: 0.9;
+    box-shadow: 0px 6px 4.8px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    z-index: -1;
+  }
+  
+  .explore-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button.selected {
+    background-color: #FFD700;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 22px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    gap: 22px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .form-field label {
+    margin-bottom: 5px;
+  }
+  
+  .form-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+  }
+  
+  .explore-cabs-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7.92px 54.12px;
+    gap: 13.2px;
+    width: 270.24px;
+    height: 42.84px;
+    background: #216900;
+    border: 1.32px solid #216900;
+    box-shadow: 0px 5.28px 29.04px rgba(0, 0, 0, 0.17);
+    border-radius: 6.6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-cabs-button:hover {
+    background-color: #1a5200;
+  }
+  

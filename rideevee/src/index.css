@@ -1,0 +1,19 @@
+body {
+ /* Frame 1686551868 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+width: 1440px;
+height: 5578.13px;
+left: calc(50% - 1440px/2);
+top: 35px;
+
+
+}
+

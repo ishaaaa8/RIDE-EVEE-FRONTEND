@@ -1,0 +1,105 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 23px;
+    width: 1394px;
+    height: 525px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .about-image {
+    width: 580px;
+    height: 388px;
+    background: url('../images/car+rental+agra 1.png') no-repeat center center;
+    /* rotate: 180; */
+    background-size: cover;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: relative;
+    width: 550px;
+    height: auto;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .about-content h1 {
+
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-family: Rounded Mplus 1c;
+    font-weight: 800;
+    line-height: 89.1px;
+
+  }
+  .about-content h1 span{
+    color: #216900;
+    
+  }
+  
+  .about-reason {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .about-icon {
+    font-size: 1.6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .about-icon img{
+    font-size: 1.6px;
+    flex: none;
+    order: 0;
+    color: #585858;
+    align-items: center;
+    flex-grow: 0;
+  }
+  
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    /* flex: none; */
+    order: 1;
+    /* flex-grow: 0; */
+  }
+  
+  /* Frame 40290 */
+
+/* Auto layout */
+
+  .about-text h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #216900;
+    ;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
